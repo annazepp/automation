@@ -9,15 +9,14 @@ jobs:
     name: deploy to staging
     runs-on: ubuntu-latest
 
-     steps:
-     -name: Hello step
-     run: echo "Hello from Github actions"
+    steps:
+      - name: Hello step
+        run: echo "Hello from Github actions"
 
+  bye:
+    name: deploy to production
+    runs-on: ubuntu-latest
 
-     bye: 
-      runs-on: ubuntu-latest
-
-      steps: 
-      -name: Bye step
-      run: echo "Bye bye"
- 
+    steps:
+      - name: Bye step
+        run: echo "Bye bye"
