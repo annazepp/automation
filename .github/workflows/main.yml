@@ -14,7 +14,7 @@ jobs:
         run: echo "Hello from Github actions"
 
       - name: List-direcotires
-        run: ls-la
+        run: ls -la
 
   bye:
     name: deploy to production
